@@ -87,7 +87,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Shubham Jasywal</Logo>
+        <Logo>Sagar Kadam</Logo>
         <Nav>
           <NavLink href="#home">Home</NavLink>
           <NavLink href="#about">About</NavLink>

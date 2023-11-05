@@ -201,7 +201,7 @@ const Contact = () => {
 
     window.Email.send({
       SecureToken: "3a0f5131-cd12-4011-98fc-17d850be133a",
-      To: "shubhammasai03@gmail.com",
+      To: "sagarkadamsearch@gmail.com",
       From: "senas17941@byorby.com",
       Subject: "Portfolio Messages",
       Body: emailbody
@@ -229,13 +229,13 @@ const Contact = () => {
               <SocialMediaIcon>
                 <EmailinIcon />
               </SocialMediaIcon>
-              <MyEmail id="contact-email">shubhammasai03@gmail.com</MyEmail>
+              <MyEmail id="contact-email">sagarkadamsearch@gmail.com</MyEmail>
             </EmailWrapper>
             <EmailWrapper>
               <SocialMediaIcon>
                 <CallInIcon />
               </SocialMediaIcon>
-              <MyContact id="contact-phone">7490836140</MyContact>
+              <MyContact id="contact-phone">7057816886</MyContact>
             </EmailWrapper>
 
             <EmailWrapper>

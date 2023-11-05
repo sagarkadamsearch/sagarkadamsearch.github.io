@@ -31,7 +31,7 @@ const Navbar = () => {
         </NavItems>
 
         <ButtonContainer>
-          <ResumeButton id="resume-button-1" href={""} target="_blank" className='nav-link resume'>Resume</ResumeButton>
+          <ResumeButton id="resume-button-1" href="https://drive.google.com/uc?export=download&id=1Q2k9_AQcybpoV05d8a8IZXMlrXYjKhf0" target="_blank" className='nav-link resume'>Resume</ResumeButton>
         </ButtonContainer>
         {
           isOpen &&
