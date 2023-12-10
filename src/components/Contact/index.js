@@ -144,7 +144,7 @@ width: 38%;
 const SocialMediaIcon = styled.a`
   display: inline-block;
   margin: 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: ${({ theme }) => theme.text_primary};
   transition: color 0.2s ease-in-out;
   &:hover {
@@ -182,7 +182,8 @@ const MyContact = styled.span`
 
 const EmailWrapper = styled.div`
   display: flex;
-  align-items: center;
+  align-items: left;
+  
 `;
 const Contact = () => {
   
@@ -238,9 +239,9 @@ const Contact = () => {
               <MyContact id="contact-phone">7057816886</MyContact>
             </EmailWrapper>
 
-            <EmailWrapper>
-              <SocialMediaIcon id="contact-github" href={Bio.github} ><GithubInIcon /></SocialMediaIcon>
-              <SocialMediaIcon id="contact-linkedin" href={Bio.linkedin}><LinkedInIcon /></SocialMediaIcon>
+            <EmailWrapper style={{display:"flex",flexDirection:"column"}}>
+              <SocialMediaIcon id="contact-github" href={Bio.github} ><GithubInIcon /> https://github.com/sagarkadamsearch/</SocialMediaIcon>
+              <SocialMediaIcon id="contact-linkedin" href={Bio.linkedin}><LinkedInIcon /> https://www.linkedin.com/in/sagarkadam513/</SocialMediaIcon>
             </EmailWrapper>
           </LEFTDIV>
           <RIGHTDIV>

@@ -101,7 +101,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Shubham Jayswal. All rights reserved.
+          &copy; 2023 sagar kadam. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

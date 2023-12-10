@@ -8,6 +8,16 @@ import { useTheme } from 'styled-components';
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
+
+ const resumebtn = ()=>{
+ const pdfPath = 'Sagar-Kadam-Resume.pdf';
+ window.open(pdfPath,'_blank');
+ const downloadLink = document.createElement('a');
+ downloadLink.href = pdfPath;
+ downloadLink.download = 'Sagar-Kadam-Resume.pdf';
+ downloadLink.click();
+ }
+
   return (
     <Nav id='#nav-menu'>
       <NavbarContainer id='nav-menu'>
@@ -27,12 +37,11 @@ const Navbar = () => {
           <NavLink href='#skills' className='nav-link skills'>Skills</NavLink>
           <NavLink href='#projects' className='nav-link projects'>Projects</NavLink>
           <NavLink href='#contact' className='nav-link contact'>Contacts</NavLink>
-          <NavLink href='#resume' className='nav-link resume'>Resume</NavLink>
+          <ButtonContainer>
+          <ResumeButton id="resume-button-1" onClick={()=>{resumebtn()}} href="https://drive.google.com/uc?export=download&id=1Q2k9_AQcybpoV05d8a8IZXMlrXYjKhf0" target="_blank" className='nav-link resume'>Resume</ResumeButton>
+          </ButtonContainer>
         </NavItems>
 
-        <ButtonContainer>
-          <ResumeButton id="resume-button-1" href="https://drive.google.com/uc?export=download&id=1Q2k9_AQcybpoV05d8a8IZXMlrXYjKhf0" target="_blank" className='nav-link resume'>Resume</ResumeButton>
-        </ButtonContainer>
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>

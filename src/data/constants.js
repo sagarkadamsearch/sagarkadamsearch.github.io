@@ -4,7 +4,7 @@ export const Bio = {
     "Full Stack Developer",
     "Programmer",
   ],
-  description: "An adept MERN stack developer known for delivering scalable and efficient applications with a results-oriented approach.",
+  description:"An adept MERN stack developer known for delivering scalable and efficient applications with a results-oriented approach.",
   github: "https://github.com/sagarkadamsearch",
   resume:
     "",
@@ -130,27 +130,27 @@ export const skills = [
 export const projects = [
   {
     id: 0,
-    title: "Connect",
+    title: "ECOFOOD",
     description:
-      "It is basically a Student Relationship Management Website. It use to connect people over a Masai Community.We have built some features by taking inspiration for Masai LMS. It was a collabarative project built by a team of five members in a span of 5 days. We basically built this website in three Sections.",
+      "Welcome to the EcoFood Fresh Food Website! eco-friendly food delivery solution. We connect food lovers with sustainable, delicious meals and grocery. Enjoy a user-friendly platform that nourishes you and the planet!",
     image:
-      "https://camo.githubusercontent.com/85a26b31ad2318229a9dee204f0a57ac68bcceac290ea33f21527a46f547043d/68747470733a2f2f6465762d746f2d75706c6f6164732e73332e616d617a6f6e6177732e636f6d2f75706c6f6164732f61727469636c65732f6f74323970646a72393978636f74766b6d6378722e706e67",
+      `ECOFOOD.png`,
     tags: ["HTML", "CSS", "JavaScript", "MockApi"],
-    github: "https://github.com/shubham-masai/adorable-crown-8253",
-    webapp: "https://connect-lms01.netlify.app/",
+    github: "https://github.com/sagarkadamsearch/ECOFOOD",
+    webapp: "https://ecofoodankit.vercel.app/",
   },
   {
     id: 1,
-    title: "Clickit",
+    title: "Swag Traveller",
     description:
-      "",
+      "Online travel platform, called Swag Traveller. Provides a user-friendly way to see the information of various travel packages. Add to cart and buy package.",
     image:
-      "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o70ain3on4s4dqxkq3j6.png",
+      "Swag_Traveller.jpg",
     tags: [
-      "HTML", "CSS", "React","React-redux","Redux-Thunk","MockApi","Chakra-UI"
+      "HTML", "CSS","JavaScript"
     ],
-    github: "https://github.com/Sushree-01/dainty-snake-6499",
-    webapp: "https://dainty-snake-6499.vercel.app/",
+    github: "https://github.com/sagarkadamsearch/Swag_Traveller",
+    webapp: "https://main--splendid-puffpuff-0eb686.netlify.app/",
   },
   {
     id: 2,

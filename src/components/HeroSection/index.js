@@ -6,6 +6,16 @@ import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
 const HeroSection = () => {
+
+    const resumebtn = ()=>{
+        const pdfPath = 'Sagar-Kadam-Resume.pdf';
+        window.open(pdfPath,'_blank');
+        const downloadLink = document.createElement('a');
+        downloadLink.href = pdfPath;
+        downloadLink.download = 'Sagar-Kadam-Resume.pdf';
+        downloadLink.click();
+        }
+
     return (
         <div>
             <HeroContainer >
@@ -28,7 +38,7 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle id="user-detail-intro">{Bio.description}</SubTitle>
-                        <ResumeButton  href={Bio.resume} target='display' id='resume-button-2'>Check Resume</ResumeButton>
+                        <ResumeButton  onClick={resumebtn} target='display' id='resume-button-2'>Check Resume</ResumeButton>
                     </HeroLeftContainer>
                     <HeroRightContainer id="Right">
                         <Img className='home-img' src={HeroImg} alt="hero-image" />
